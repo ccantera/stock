@@ -32,7 +32,7 @@ public:
     string getSymbol(){
         return symbol;
     }
-    int getChangePercent(double closingprice,double currentprice){
+    double getChangePercent(double closingprice,double currentprice){
         return ((currentprice - closingprice)/currentprice * 100);
     }
 };
